@@ -1,0 +1,359 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    /*border: 3px solid #fff;*/
+}
+#page {
+    clear: both;
+    padding-top: 60px;
+}
+.field-group-format > h3{
+    /*font-weight: 100;*/
+    /*font-size: 26px;*/
+    float: left;
+    width: 22.5%;
+    width: auto;
+    /*padding: 20px 2.5% 0 0;*/
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*[Logo]*/
+
+#branding {
+    float: left;
+    width: auto;
+    padding-top: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.front .views-row,
+.front .group-about-me h3,
+.front .view-projects h2 {
+    width: 22.5%;
+    padding-right: 2.5%;
+}
+.front .views-row,
+.front .group-about-me h3,
+.field-name-field-front-bio,
+.field-name-field-front-contact,
+.front .view-projects h2,
+/*.field-name-field-front-profile-image,*/
+.front .field-name-body {
+    float: left;
+    
+}
+.front .views-row {
+    height: 300px;
+    
+}
+.front .view-id-projects .view-content,
+.front h2.title,
+.front .group_about_me,
+.page-portfolio .view-content{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.front .field-name-body p{
+    /*float: right;*/
+    /*width: 75%;*/
+    font-size: 26px;
+    line-height: .8em;
+}
+.field-name-field-front-bio {
+    float: right;
+    width: 40%;
+}
+
+.front .views-row.views-row-last {
+    padding: 0;
+}
+.front .view-id-projects {
+    /*width: 75%;*/
+    /*float: right;*/
+    clear: both;
+}
+.front img {
+    max-width: 100%;
+}
+.front .field-name-field-front-profile-image img {
+    width: 100px;
+}
+.front .field-name-body {
+    /*padding-bottom: 20px;*/
+    /*padding: 0 0 0 5px;*/
+}
+.front .field-name-field-front-contact {
+    float: right;
+}
+.front .field-name-field-front-contact .field-item {
+    float: left;
+    padding: 5px 15px 0 15px;
+}
+
+
+.front .group-about-me h3 {
+    /*width: 25%;*/
+    /*float: left;*/
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Menu*/
+
+#navigation {
+    float: right;
+    /*width: 55%;*/
+    text-align: right;
+    padding-top: 20px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Sections*/
+
+
+.front .group_about_me {
+    /*float: left;*/
+    /*width: auto;*/
+    clear: both;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Portfolio View*/
+
+.page-portfolio .views-row {
+    width: 22.5%;
+    padding-right: 2.5%;
+    float: left;
+    height: 320px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Project*/
+
+
+.group-project-overview {
+    padding-top: 20px;
+}
+.field-name-field-project-overview {
+    float: right;
+    width: 75%;
+}
+.field-name-field-project-overview p {
+    font-size: 20px;
+}
+.node-project .view-projects.view-display-id-entity_view_3 {
+    /*float: left;*/
+    /*clear: both;*/
+    /*width: 100%;*/
+}
+/*Facts*/
+.node-project div.field-name-field-facts {
+    /*float: right;*/
+    /*padding: 0 0 0 2.5%;*/
+    /*width: 22.5%;*/
+    clear: none;
+}
+
+
+/*Details*/
+.node-project .group-project-details {
+    border-top: 1px solid #aaa;
+    width: 75%;
+    float: left;
+    padding: 20px 0 0 0;
+    clear: both;
+}
+.node-project .group-project-details h3 {
+    width: 22.5%;
+    padding-right: 2.5%;
+}
+.node-project .field-name-body,
+.node-project .group_project_details .view-projects{
+    clear: none;
+    width: 455px;
+    float: right;
+}
+
+
+/*Images*/
+
+.view-projects.view-display-id-entity_view_3 {
+    /*width: 75%;*/
+    float: right;
+    /*padding-left: 5px;*/
+}
+
+.views-slideshow-pager-field-item img {
+    margin: 0 0 28px 25px;
+    /*margin: 4px 15px 0 0;*/
+    width: 215px;
+    /*width: 22.5%;*/
+    float: left;
+}
+#widget_pager_bottom_projects-entity_view_3 > div:last-child img{
+    margin-right: 0;
+}
+
+#views_slideshow_cycle_main_projects-entity_view_3 {
+    float: left;
+    padding-bottom: 20px;
+}
+.views-slideshow-controls-bottom {
+    float: right;
+    clear: none;
+}
+/*Details*/
+.node-project .view-display-id-entity_view_4 {
+    float: right;
+    width: 22.5%
+    
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Resume*/
+
+/*Top Section Content*/
+.node-type-resume .collumn .field-items {
+    float: right;
+    width: 55%;
+    clear: none;
+}
+/*Section Titles*/
+.node-type-resume .collumn .field-label {
+    width: 35%;
+}
+#page .node-resume .collumn div.field-label,
+.view-id-resume h2.title {
+    float: left;
+}
+.node-resume .field .field-label {
+    font-weight: lighter;
+}
+
+.node-resume .collumn .field {
+    clear: both;
+    padding-top: 30px;
+}
+.group_left_collumn,
+.group_right_collumn {
+    /*width: 45%;*/
+    float: left;
+    text-align: left;
+    /*height: 400px;*/
+}
+.group_left_collumn {
+    padding-right: 2.5%;
+    width: 50%
+}
+.group_right_collumn {
+    padding-left: 2.5%;
+    border-left: 1px solid #AAA;
+    width: 40%
+}
+.field-name-field-resume-education span {
+    display: block;
+}
+
+.view-id-resume.view-display-id-entity_view_1 h2.title,
+.view-id-resume.view-display-id-entity_view_2 h2.title {
+    width: 20%;
+}
+.node-resume .view-id-resume .view-content {
+    float: right;
+    width: 80%;
+    clear: none;
+}
+.view-id-resume.view-display-id-entity_view_1 h2.title,
+.view-id-resume.view-display-id-entity_view_2 h2.title {
+    width: 20%;
+    float: left;
+}
+.node-type-resume .view-id-resume .view-content {
+    float: left;
+    width: 80%;
+    clear: none;
+}
+
+.view-id-resume h2.title {
+    float: left;
+}
+.node-type-resume .views-field-field-employer:before {
+    content: ' - ';
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*Blog*/
+
+
+
+.page-blog .view-blog {
+    width: 75%;
+    float: left;
+}
+.page-blog .views-field-body {
+    float: right;
+    width: 70%;
+    padding: 10px 30px 0 0;
+}
+.page-blog .views-field-created {
+    float: left;
+    width: 25%;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.page-blog .view-content {
+    padding: 0 0 0 5px;
+}
+.page-blog .views-row {
+    clear: both;
+    padding-top: 4em;
+}
+.page-blog .views-row.views-row-first {
+    padding-top: 1em;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Related Projects */
+
+.node-type-project .view-id-projects.view-display-id-entity_view_2 .views-row {
+    float: right;
+    width: 22.5%;
+    padding-left: 2.5%;
+
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
