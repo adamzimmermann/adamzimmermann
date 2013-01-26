@@ -1,7 +1,7 @@
 core = 7.x
-description = Tao is a base theme that is all about going with the flow. It takes care of key reset and utility tasks so that sub-themes can get on with their job.
+description = Custom sub-theme of Tao.
 engine = phptemplate
-name = Portfolio - Tao
+name = adamzimmermann
 base theme = tao
 
 ; Regions =====================================================================
@@ -18,9 +18,6 @@ regions[highlighted] = Highlighted
 
 ; Stylesheets =================================================================
 
-;stylesheets[all][] = reset.css
-;stylesheets[all][] = base.css
-;stylesheets[screen][] = drupal.css
-stylesheets[screen][] = portfolio.css
-stylesheets[all and (max-width : 500px)][] = portfolio-mobile.css
-stylesheets[all and (min-width: 500px)][] = portfolio-screen.css
+stylesheets[screen][] = css/portfolio.css
+stylesheets[all and (max-width : 500px)][] = css/portfolio-mobile.css
+stylesheets[all and (min-width: 500px)][] = css/portfolio-screen.css
