@@ -46,7 +46,7 @@ $viewport = array(
     '#tag' => 'meta', // The #tag is the html tag - <link />
     '#attributes' => array( // Set up an array of attributes inside the tag
 	'name' => 'viewport',
-	'content' => 'width=device-width; initial-scale=1.0; maximum-scale=1.0'
+	'content' => 'width=device-width, initial-scale=1.0, maximum-scale=1.0'
     ),
 );
 drupal_add_html_head($viewport, 'viewport');
