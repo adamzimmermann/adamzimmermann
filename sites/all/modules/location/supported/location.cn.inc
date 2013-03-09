@@ -38,6 +38,8 @@ function location_province_list_cn() {
     '91' => "Xianggang",
     '92' => "Aomen",
     '97' => "Chongqing",
+    '98' => "Gaoxiong",
+    '99' => "Taibei",
   );
 }
 
